@@ -21,6 +21,17 @@ JavaScript Addition and Subtraction
 		document.write(num1+ "%" +num2+ "="+rem);
 		/*sub= num1-num2;
 		document.getElementById("demo").innerHTML= ("subtraction :" +sub);*/
+		var result;
+	   result= num1+num2;
+	document.write(num1+ "+" +num2+ "="+result+"<br>");
+	   result= num1-num2;
+	document.write(num1+ "-" +num2+ "="+result+"<br>");
+	   result= num1*num2;
+	document.write(num1+ "*" +num2+ "="+result+"<br>");
+	   result= num1/num2;
+	document.write(num1+ "/" +num2+ "="+result+"<br>");
+	   result= num1%num2;
+	document.write(num1+ "%" +num2+ "="+result);
 
 	</script>
 	</body>
